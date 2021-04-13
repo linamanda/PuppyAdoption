@@ -65,6 +65,11 @@
 .indexContentElement {
   border: 3px solid #2b4736;
   padding-bottom: 1vw;
+  transition: transform 250ms;
+}
+
+.indexContentElement:hover {
+  transform: scale(1.05);
 }
 
 .indexContentHeaderImage {
